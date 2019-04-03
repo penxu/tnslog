@@ -79,8 +79,7 @@ export default {
 
 <style lang="scss" scoped>
   .home-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 50px 0;
   }
   .service-item-container {
     padding-top: 30px;

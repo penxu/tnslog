@@ -41,6 +41,7 @@ export default {
   .navigation_bar {
     width: 100%;
     // position: fixed;
+    padding-top: 10px;
     z-index: 999;
     transition: all .5s cubic-bezier(0,0,0,0.98);
     box-sizing: border-box;
@@ -51,12 +52,6 @@ export default {
       margin-right: auto;
       margin-left: auto;
       height: 100%;
-      .logo-box {
-        height: 100%;
-        img {
-          height: 100%;
-        }
-      }
     }
   }
 
