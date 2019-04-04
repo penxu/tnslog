@@ -21,6 +21,13 @@
                 <li class="nav-item">
                   <a class="nav-link " href="#"> <router-link to="/contact">联系我们</router-link></a>
                 </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">语言</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">中文</a>
+                    <a class="dropdown-item" href="https://www.tnslog.com.my">英文</a>
+                  </div>
+                </li>
               </ul>
             </div>
         </div>
@@ -46,7 +53,7 @@ export default {
     transition: all .5s cubic-bezier(0,0,0,0.98);
     box-sizing: border-box;
     height: 70px;
-    line-height: 70px;
+    // line-height: 70px;
     background: transparent;
     .container {
       margin-right: auto;
@@ -54,5 +61,12 @@ export default {
       height: 100%;
     }
   }
+
+</style>
+<style lang="scss" >
+    .dropdown-menu {
+      border: none;
+      box-shadow: -2px 2px 4px 0 rgba(155,155,155,0.30), 2px -2px 4px 0 rgba(155,155,155,0.20);
+    }
 
 </style>
