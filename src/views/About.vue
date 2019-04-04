@@ -43,7 +43,7 @@
     background-size: cover;
   }
   .about-des {
-    // padding: 50px 0;
+    padding-top: 50px;
     text-align: left;
   }
 </style>
