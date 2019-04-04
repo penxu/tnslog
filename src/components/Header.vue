@@ -60,6 +60,15 @@ export default {
       margin-left: auto;
       height: 100%;
     }
+    .right_menu {
+      padding-top:30px;
+      align-items: center;
+      .nav-link {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
   }
 
 </style>

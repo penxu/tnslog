@@ -107,8 +107,7 @@ export default {
           color: #fff;
           opacity: .6;
         a {
-                    line-height: 40px;
-
+          line-height: 40px;
           font-size: 16px;
           color: #fff;
           opacity: .6;

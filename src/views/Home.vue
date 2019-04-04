@@ -59,6 +59,9 @@
             <div class="newsStyle">
                 <span>cooperative partner</span>
             </div>
+      <div class="row parnar-img-box">
+        <div class="col-4 col-md-2 parnar-img" v-for=" (img, index) of imgList" :key="index"><img :src="img.img" alt=""></div>
+      </div>
     </div>
 
   </div>
@@ -75,26 +78,58 @@ export default {
   },
   data () {
     return {
-
+      imgList: [
+        {img: require('../assets/parnar-img/link_20.jpg')},
+        {img: require('../assets/parnar-img/link_21.jpg')},
+        {img: require('../assets/parnar-img/link_23.jpg')},
+        {img: require('../assets/parnar-img/link_24.jpg')},
+        {img: require('../assets/parnar-img/link_25.jpg')},
+        {img: require('../assets/parnar-img/link_26.jpg')},
+        {img: require('../assets/parnar-img/link_27.jpg')},
+        {img: require('../assets/parnar-img/link_28.jpg')},
+        {img: require('../assets/parnar-img/link_29.jpg')},
+        {img: require('../assets/parnar-img/link_30.jpg')},
+        {img: require('../assets/parnar-img/link_31.jpg')},
+        {img: require('../assets/parnar-img/link_32.jpg')},
+        {img: require('../assets/parnar-img/link_33.jpg')},
+        {img: require('../assets/parnar-img/link_38.jpg')},
+        {img: require('../assets/parnar-img/link_39.jpg')},
+        {img: require('../assets/parnar-img/link_40.jpg')},
+        {img: require('../assets/parnar-img/link_41.jpg')},
+        {img: require('../assets/parnar-img/link_44.jpg')},
+        {img: require('../assets/parnar-img/link_45.jpg')},
+        {img: require('../assets/parnar-img/link_46.jpg')},
+      ]
     }
   },
   methods: {
-    created() {
-      // console.log(Header, 'headers')
+
+  },
+      mounted() {
+      console.log(this.imgList, 'headers')
+      console.log('headers')
     }
-  }
 }
 </script>
 
 <style lang="scss" scoped>
   .home-container {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
   }
   .service-item-container {
     padding-top: 30px;
     .main-head {
       b {
         font-size: 36px;
+        border-bottom: 1px solid #1890FF;
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 100px;
+          background: #2787fa;
+          height: 4px;
+          margin: 0px -102px -18px 0px;
+          }
       }
     }
   }
@@ -121,7 +156,7 @@ export default {
     }
   }
     .index-header {
-      padding-top: 50px;
+      padding-top:  50px ;
       color: #666;
       margin: 0;
       text-align: center;
@@ -154,6 +189,13 @@ export default {
             float: left;
             margin: 0px -68px 0 0px;
           }
+        }
+      }
+      .parnar-img-box {
+        padding: 15px 200px 0 200px;
+        margin:0;
+        .parnar-img {
+          margin-bottom: 40px;
         }
       }
     }
