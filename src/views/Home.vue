@@ -34,7 +34,7 @@
         <div class="col-sm">
           <div class="icon-item-box">
             <div class="icon-item"><i class="iconfont icon-town-bus icon-service"></i></div>
-            <div class="icon-des">海关经纪</div>
+            <div class="icon-des">报关</div>
           </div>
           
         </div>
@@ -52,6 +52,15 @@
         </div>
       </div>
     </div>
+
+    <div class="cooperative_partner index-header">
+            <p class="header">
+            <span>合作伙伴</span></p>
+            <div class="newsStyle">
+                <span>cooperative partner</span>
+            </div>
+    </div>
+
   </div>
 </template>
 
@@ -111,5 +120,42 @@ export default {
       color: #666666;
     }
   }
+    .index-header {
+      padding-top: 50px;
+      color: #666;
+      margin: 0;
+      text-align: center;
+      .header {
+        margin-bottom: 0;
+        span {
+          border-bottom: 1px solid #1890FF;
+          font-size: 36px;
+          color: #17171A;
+          line-height: 50px;
+          height: 50px;
+          display: inline-block;
+        }
+      }
+      .newsStyle {
+        span {
+          margin: 0 0 0 -19px;
+          padding: 0;
+          display: inline-block;
+          height: 34px;
+          line-height: 34px;
+          // font-size: 1.2rem;
+          color: #666;
+          &::before {
+            content: "";
+            display: inline-block;
+            width: 68px;
+            background: #2787fa;
+            height: 4px;
+            float: left;
+            margin: 0px -68px 0 0px;
+          }
+        }
+      }
+    }
 </style>
 
