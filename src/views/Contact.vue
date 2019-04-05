@@ -24,7 +24,6 @@
                       <p>TNS LOG SERVICES SDN BHD (1090197-X)</p>
                       <p><i class="iconfont icon-dianhua iconfont-item"></i>TEL:852-36115584</p>
                       <p><i class="iconfont icon-chuanzhen iconfont-item"></i>FAX:852-36115585</p>
-                      <p><i class="iconfont icon-youjian iconfont-item"></i> EMAIL:lucy@szsdi.com, lucy@sdilogistics.com</p>
                       <p><i class="iconfont icon-dizhi iconfont-item"></i>ADD: : 28B (2nd Floor), Jalan Sentosa 5,Taman Bayu Tinggi, </p>
                       <p>41200 Klang,Selangor Darul Ehsan, Malaysia</p>
                       <p><i class="iconfont icon-shouji iconfont-item"></i>Tel: +603 3319 0318</p>
