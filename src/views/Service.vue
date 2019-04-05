@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-sm">
           <div class="card" >
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <img class="card-img-top" src="https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_2.jpg" alt="海运服务">
             <div class="card-body">
               <h5 class="card-title">海运服务</h5>
               <p class="card-text">
@@ -24,7 +24,7 @@
         </div>
         <div class="col-sm">
                     <div class="card" >
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <img class="card-img-top" src="https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_3-1.jpg" alt="空运服务">
             <div class="card-body">
               <h5 class="card-title">空运服务</h5>
               <p class="card-text">
@@ -39,7 +39,7 @@
         </div>
         <div class="col-sm">
                               <div class="card">
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <img class="card-img-top" src="https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_4-new-1.jpg" alt="陆运服务">
             <div class="card-body">
               <h5 class="card-title">陆运服务</h5>
               <p class="card-text">
@@ -56,7 +56,7 @@
 <style lang="scss" scoped>
   .service-img {
         height: 300px;
-    background-image: url(https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_2.jpg);
+    background-image: url(https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_1.jpg);
     background-size: cover;
   }
   .service-container {

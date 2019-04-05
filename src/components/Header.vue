@@ -64,9 +64,14 @@ export default {
       padding-top:30px;
       align-items: center;
       .nav-link {
+        color: #666;
         a {
           font-size: 16px;
+          color: #666;
         }
+      }
+      .dropdown-item {
+        color: #666;
       }
     }
   }
