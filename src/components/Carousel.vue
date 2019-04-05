@@ -8,31 +8,31 @@
   </ol> -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_1.jpg" alt="First slide">
+        <img class="d-block w-100" src="../../public/img/banner1.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-            <h2>马来西亚总部</h2>
-            <p>立足于马来西亚和中国，放眼全球，更加专业。</p>
+            <h2>海运服务：</h2>
+            <p>海运进出口业务，国际多联式联运业务。内贸运输业务。DDP/DDU服务 </p>
           </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_2.jpg" alt="Second slide">
+        <img class="d-block w-100" src=" https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_3-1.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-            <h2>海运服务</h2>
-            <p>10年经验，全世界各国都很强大的代理支持。</p>
-          </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_3-1.jpg" alt="Third slide">
-                    <div class="carousel-caption d-none d-md-block">
             <h2>空运服务</h2>
-            <p>你会得到快速，高效的国际空运提货全球。</p>
+            <p>空运进出口，代理报关报检，仓储装卸，地面运输，货物包装及门到门的贴心服务</p>
           </div>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_4-new-1.jpg" alt="Third slide">
           <div class="carousel-caption d-none d-md-block">
             <h2>陆运服务</h2>
-            <p>资源整合配置我们能够快速把货物运到出口港或者送到客户手上。</p>
+            <p>提供集装箱，零担散货，海关监管车等运输服务</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://tnslog.com.my/wp-content/uploads/2016/05/homeslider_2.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+            <h2>特殊服务：</h2>
+            <p style="padding: 0 50px;">转口贸易，专业优质的一站式第三国转口贸易 ，普通化工品的进出口业务，特种集装箱（开顶柜，平板柜。框架柜等）国际运输</p>
           </div>
       </div>
     </div>
